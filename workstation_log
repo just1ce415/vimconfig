@@ -1,0 +1,53 @@
+Uptime
+ 12:32:23 up  6:51,  2 users,  load average: 0.09, 0.11, 0.09
+
+Logged users
+ 12:32:23 up  6:51,  2 users,  load average: 0.09, 0.11, 0.09
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+kali     tty7     :0               28Feb22 69days  3:00   0.40s xfce4-session
+kali     pts/1    -                28Feb22  7.00s 18.07s  0.00s /bin/bash ./script3.sh
+
+Last logins
+kali     tty7         :0               Mon Feb 28 07:11    gone - no logout
+reboot   system boot  5.15.0-kali3-amd Mon Feb 28 07:10   still running
+reboot   system boot  5.15.0-kali3-amd Mon Feb 28 07:09   still running
+kali     tty7         :0               Fri Feb 11 19:21 - 19:22  (00:00)
+reboot   system boot  5.15.0-kali3-amd Fri Feb 11 19:21 - 19:22  (00:01)
+kali     tty7         :0               Fri Feb 11 18:41 - crash  (00:39)
+reboot   system boot  5.15.0-kali3-amd Fri Feb 11 18:41 - 19:22  (00:41)
+kali     tty7         :0               Fri Feb 11 18:25 - 18:29  (00:03)
+reboot   system boot  5.15.0-kali3-amd Fri Feb 11 18:25 - 18:29  (00:04)
+
+wtmp begins Fri Feb 11 18:25:18 2022
+
+Top 10 processes by memory usage
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         527  0.7  4.2 493932 170532 tty7    Rsl+ 05:41   3:00 /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+kali         872  0.0  2.6 519096 107820 ?       Sl   05:41   0:01 xfdesktop
+kali        1108  0.1  2.4 426272 99336 ?        Sl   05:41   0:43 /usr/bin/qterminal
+kali         830  0.3  2.3 928012 95568 ?        Sl   05:41   1:13 xfwm4
+kali         867  0.0  1.3 420192 55000 ?        Sl   05:41   0:01 Thunar --daemon
+kali         922  0.0  1.2 374252 51496 ?        Sl   05:41   0:00 /usr/bin/python3 /usr/bin/blueman-applet
+kali         966  0.0  1.2 558492 49516 ?        Sl   05:41   0:00 nm-applet
+kali         929  0.0  1.1 395016 46920 ?        Ssl  05:41   0:00 /usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd
+kali         875  0.0  1.1 409108 46044 ?        Sl   05:41   0:02 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libwhiskermenu.so 1 27262983 whiskermenu Whisker Menu Show a menu to easily access installed applications
+
+Opened TCP & UDP ports
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+udp        0      0 10.0.2.15:bootpc        10.0.2.2:bootps         ESTABLISHED
+
+Virtual memory usage
+               total        used        free      shared  buff/cache   available
+Mem:         4024172      706332     2199904       22004     1117936     3045540
+Swap:         998396           0      998396
+Total:       5022568      706332     3198300
+
+Disc space usage
+Filesystem      Size  Used Avail Use% Mounted on
+udev            1.9G     0  1.9G   0% /dev
+tmpfs           393M  940K  393M   1% /run
+/dev/sda1        78G  9.8G   64G  14% /
+tmpfs           2.0G     0  2.0G   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs           393M   68K  393M   1% /run/user/1000
